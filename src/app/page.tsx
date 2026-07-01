@@ -490,7 +490,7 @@ export default function PortfolioTailwind() {
                 <input type="text" placeholder="Subject*" className={`w-full bg-transparent border-b border-gray-300 dark:border-gray-700 py-4 focus:outline-none focus:border-[#0F172A] dark:focus:border-white transition-colors ${textDark}`} />
               </div>
               
-              <textarea placeholder="Message*" rows="3" className={`w-full bg-transparent border-b border-gray-300 dark:border-gray-700 py-4 focus:outline-none focus:border-[#0F172A] dark:focus:border-white transition-colors resize-none ${textDark}`}></textarea>
+              <textarea placeholder="Message*" rows={3} className={`w-full bg-transparent border-b border-gray-300 dark:border-gray-700 py-4 focus:outline-none focus:border-[#0F172A] dark:focus:border-white transition-colors resize-none ${textDark}`}></textarea>
               
               <button 
                 onMouseEnter={() => setIsHovering(true)}
