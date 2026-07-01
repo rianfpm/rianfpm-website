@@ -262,6 +262,10 @@ export default function PortfolioTailwind() {
                   <p><span className="text-gray-400">Email :</span> <span className={`font-medium ${textDark}`}>{profile.email}</span></p>
                   <p><span className="text-gray-400">Phone :</span> <span className={`font-medium ${textDark}`}>{profile.phone}</span></p>
                   <p><span className="text-gray-400">University :</span> <span className={`font-medium ${textDark}`}>{profile.university}</span></p>
+                  <p><span className="text-gray-400">Degree :</span> <span className={`font-medium ${textDark}`}>{profile.degree}</span></p>
+                  <p><span className="text-gray-400">GPA :</span> <span className={`font-medium ${textDark}`}>{profile.gpa}</span></p>
+                  <p><span className="text-gray-400">Freelance :</span> <span className={`font-medium ${textDark}`}>{profile.freelance_status}</span></p>
+                  <p><span className="text-gray-400">Linkedin :</span> <a className={`font-medium ${textDark}`} target="_blank" href={profile.linkedin_url}>{profile.linkedin_url}</a></p>
                 </div>
                 
                 <a 
